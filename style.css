@@ -1,0 +1,189 @@
+p {
+  font-size: 20px;
+  color: #cc699d;
+  font-family: "Founders Grotesk", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+h1 {
+  font-size: 120px;
+  color: #cc699d;
+  font-family: "Termina", sans-serif;
+  font-weight: 600;
+  text-align: left;
+
+}
+a:hover{
+ cursor: help;
+ color: #000000
+}
+h2 {
+  font-size: 20px;
+  color: #cc699d;
+  font-family: "Termina", sans-serif;
+
+}
+
+h3 {
+  font-size: 90px;
+  color: #cc699d;
+}
+h4 {
+  font-size: 140px;
+  color: #cc699d;
+
+}
+
+body {background-color: #000000; /* black */
+}
+
+a {
+  text-decoration: none;
+  Color: #cc699d
+}
+
+body {
+  padding: 25px;
+}
+
+Button
+{
+  background: #cc699d;
+  color: white;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  white-space: nowrap;
+  text-align: center;
+  cursor: move;
+  &:hover;
+}
+
+
+
+#mydiv, #mydiv2, #mydiv3, #mydiv4 {
+    position: absolute;
+    z-index: 9;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    white-space: nowrap;
+    text-align: center;
+    cursor: move;
+    &:hover;
+}
+
+#mydivheader, #mydivheader2, #mydivheader3, #mydivheader4 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    font-size: 100px;
+    color: #cc699d;
+    font-family: "Termina", sans-serif;
+    font-weight: 600;
+    text-align: left;
+
+}
+#mydiv4:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+#mydivheader4:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+
+#mydiv:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+#mydivheader:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+
+#mydiv2:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+#mydivheader2:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+
+#mydiv3:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+#mydivheader3:active {
+	-moz-webkit-transform: scale(1,2);
+	transform: scale(1,2);
+}
+
+
+#mydiv5 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    white-space: normal;
+    text-align: right;
+    cursor: move;
+    &:hover;
+}
+
+#mydivheader5 {
+    padding: 10px;
+    cursor: move;
+    z-index: 1;
+    font-size: 30px;
+    color: #eeeeee;
+    font-family: "Termina", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    }
+
+
+#image1 {
+  Width: 100px;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  cursor: move;
+  &:hover;
+  padding: 10px;
+  cursor: move;
+  z-index: 1;
+  font-size: 30px;
+  font-family: "Termina", sans-serif;
+  font-weight: 300;
+  text-align: left;
+    }
+
+#image1:active {
+  -moz-webkit-transform: scale(1.2,1);
+	transform: scale(1.2,1);
+
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 30%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+    }
